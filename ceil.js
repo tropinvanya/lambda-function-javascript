@@ -1,1 +1,2 @@
-const updated = numbers.filter(element => element > 6);
+const isDateValid = (...val) => !Number.isNaN(new Date(...val).valueOf());
+const merge = (a, b) => [...a, ...b];
