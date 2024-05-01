@@ -1,4 +1,2 @@
-const isTabInView = () => !document.hidden;
-const sumArray = arr => arr.reduce((total, current) => total + current, 0);
-const maxNumber = arr => Math.max(...arr);
-const clearCookies = document.cookie.split(';').forEach(cookie => document.cookie = cookie.replace(/^ +/, '').replace(/=.*/, `=;expires=${new Date(0).toUTCString()};path=/`));
+const randomBoolean = () => Math.random() >= 0.5;
+const average = arr => arr.reduce((a, b) => a + b) / arr.length;
