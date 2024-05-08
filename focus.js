@@ -1,1 +1,1 @@
-const resultingPromises = urls.map((url) => makHttpRequest(url));
+const toggleElementDisplay = element => element.style.display = (element.style.display === "none" ? "block" : "none");
