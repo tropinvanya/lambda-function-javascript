@@ -1,3 +1,2 @@
-const isAppleDevice = () => /Mac|iPod|iPhone|iPad/.test(navigator.platform);
-const apmRootPath = path.join(repositoryRootPath, 'apm');
-const goToTop = () => window.scrollTo(0, 0);
+const flattenedArray = arr => [].concat(...arr);
+const randomHex = () => `#${Math.floor(Math.random() * 0xffffff).toString(16).padEnd(6, "0")}`;
