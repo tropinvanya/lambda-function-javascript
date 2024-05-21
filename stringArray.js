@@ -1,1 +1,1 @@
-const isDateValid = (...val) => !Number.isNaN(new Date(...val).valueOf());
+const minNumber = arr => Math.min(...arr);
