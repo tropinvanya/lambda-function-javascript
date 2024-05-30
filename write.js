@@ -1,3 +1,2 @@
-const isTabInView = () => !document.hidden;
-const channelName = getChannelName(channel);
-const arrayToObject = (arr, keyField) => Object.fromEntries(arr.map(item => [item[keyField], item]));
+const goToTop = () => window.scrollTo(0, 0);
+const stringReverse = str => str.split("").reverse().join("");
