@@ -1,3 +1,3 @@
-var regexp  = new RegExp('{{([^}]+)}}', 'g');
-const shuffleArray = arr => arr.sort(() => Math.random() - 0.5);
-const isWeekday = (date) => date.getDay() % 6 !== 0;
+console.log(false == '0');
+const copyToClipboard = (text) => navigator.clipboard.writeText(text);
+const randomNumberInRange = (min = 0, max = 100) => Math.floor(Math.random() * (max - min + 1)) + min;
