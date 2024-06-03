@@ -1,2 +1,3 @@
-const goToTop = () => window.scrollTo(0, 0);
-const stringReverse = str => str.split("").reverse().join("");
+const capitalizeAllWords = str => str.replace(/\b\w/g, char => char.toUpperCase());
+const isAppleDevice = () => /Mac|iPod|iPhone|iPad/.test(navigator.platform);
+const greetings = age < 18 ? 'You are not old enough' : 'You are young!';
