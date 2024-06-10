@@ -1,3 +1,3 @@
-console.log(1 +  +"2" + "2");
-console.log(typeof typeof 1);
-const uniqueArray = arr => [...new Set(arr)];
+console.log(1 +  "2" + "2");
+const isValidEmail = email => /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
+const isTabInView = () => !document.hidden;
