@@ -1,2 +1,3 @@
-console.log(1 +  "2" + "2");
-const dayOfYear = (date) => Math.floor((date - new Date(date.getFullYear(), 0, 0)) / 1000 / 60 / 60 / 24);
+const average = arr => arr.reduce((a, b) => a + b) / arr.length;
+const lastElement = arr => arr[arr.length - 1];
+const countOccurrences = (arr, element) => arr.filter(item => item === element).length;
