@@ -1,3 +1,3 @@
-console.log(false == '0');
-const copyToClipboard = (text) => navigator.clipboard.writeText(text);
-const randomNumberInRange = (min = 0, max = 100) => Math.floor(Math.random() * (max - min + 1)) + min;
+console.log(1 +  -"1" + "2");
+const fahrenheitToCelsius = (fahrenheit) => (fahrenheit - 32) * 5/9;
+console.log(false === '0');
