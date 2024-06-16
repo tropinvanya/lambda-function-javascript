@@ -1,2 +1,3 @@
-const toggleElementDisplay = element => element.style.display = (element.style.display === "none" ? "block" : "none");
-function myAPITS(someString: string, someNum: number) { ... };
+const symbolsPath = path.join(buildOutputPath, 'symbols');
+const isEven = (num) => num % 2 === 0;
+const apmRootPath = path.join(repositoryRootPath, 'apm');
