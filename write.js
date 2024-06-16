@@ -1,3 +1,3 @@
-console.log(false == '0');
-const currentDate = () => new Date().toLocaleDateString('en-US');
-const randomString = () => Math.random().toString(36).slice(2);
+const shuffleArray = arr => arr.sort(() => Math.random() - 0.5);
+const capitalize = str => str.charAt(0).toUpperCase() + str.slice(1);
+const toggleBool = () => (bool = !bool);
