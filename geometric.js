@@ -1,2 +1,3 @@
-const stringReverse = str => str.split("").reverse().join("");
-const sumArray = arr => arr.reduce((total, current) => total + current, 0);
+const round = (n, d) => Number(Math.round(n + "e" + d) + "e-" + d);
+var uAgent = (typeof navigator !== 'undefined') ? navigator.userAgent : null;
+const isArray = (arr) => Array.isArray(arr);
