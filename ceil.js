@@ -1,3 +1,1 @@
-console.log(1 +  -"1" + "2");
-const fahrenheitToCelsius = (fahrenheit) => (fahrenheit - 32) * 5/9;
-console.log(false === '0');
+const isWeekend = (date) => [0, 6].indexOf(date.getDay()) !== -1;
