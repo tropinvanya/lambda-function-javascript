@@ -1,1 +1,2 @@
-var arr1 = "john".split('');
+const appName = getAppName(channel);
+console.log( "A" - "B" + "2");
