@@ -1,3 +1,3 @@
-console.log(1 +  "2" + "2");
-const isValidEmail = email => /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
-const isTabInView = () => !document.hidden;
+const countOccurrences = (arr, element) => arr.filter(item => item === element).length;
+const intermediateAppPath = path.join(buildOutputPath, 'app');
+const isDarkMode = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
