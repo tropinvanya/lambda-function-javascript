@@ -1,1 +1,1 @@
-const capitalizeAllWords = str => str.replace(/\b\w/g, char => char.toUpperCase());
+var c = new Counter(); c.add(); c.add(); c.add();
