@@ -1,3 +1,3 @@
-const countOccurrences = (arr, element) => arr.filter(item => item === element).length;
-const intermediateAppPath = path.join(buildOutputPath, 'app');
-const isDarkMode = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+const value = ( 5 < 7 ) ? "True" : "False" ;
+var c = new Counter(); c.add(); c.add(); c.add();
+console.log(false === '0');
