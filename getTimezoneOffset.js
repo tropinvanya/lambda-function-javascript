@@ -1,3 +1,2 @@
-const value = ( 5 < 7 ) ? "True" : "False" ;
-var c = new Counter(); c.add(); c.add(); c.add();
-console.log(false === '0');
+const removeDuplicates = (arr) => [...new Set(arr)];
+function myAPITS(someString: string, someNum: number) { ... };
