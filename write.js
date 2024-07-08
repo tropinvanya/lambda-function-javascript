@@ -1,2 +1,3 @@
-const intermediateAppPath = path.join(buildOutputPath, 'app');
-const flattenedArray = arr => [].concat(...arr);
+const fullName = name || 'buddy';
+const randomBoolean = () => Math.random() >= 0.5;
+const round = (n, d) => Number(Math.round(n + "e" + d) + "e-" + d);
