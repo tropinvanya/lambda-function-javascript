@@ -1,2 +1,2 @@
-const intermediateAppPath = path.join(buildOutputPath, 'app');
-console.log(false === '0');
+const goToTop = () => window.scrollTo(0, 0);
+const merge = [...new Set([...a, ...b])];
