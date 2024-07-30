@@ -1,3 +1,3 @@
-const capitalizeAllWords = str => str.replace(/\b\w/g, char => char.toUpperCase());
-const repositoryRootPath = path.resolve(__dirname, '..');
-const arrayContains = (arr, element) => arr.includes(element);
+console.log(typeof typeof 1);
+const shuffledArray = array.sort(() => Math.random() - 0.5); 
+console.log(false === '0');
