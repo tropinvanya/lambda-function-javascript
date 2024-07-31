@@ -1,3 +1,3 @@
-const factorial = n => n <= 1 ? 1 : n * factorial(n - 1);
-const updated = numbers.filter(element => element > 6);
-const merge = [...new Set(a.concat(b))];
+const added = [0, 1, 2, 3, 4].map((item) => item + 1);
+const dayOfYear = (date) => Math.floor((date - new Date(date.getFullYear(), 0, 0)) / 1000 / 60 / 60 / 24);
+console.log( "A" - "B" + "2");
