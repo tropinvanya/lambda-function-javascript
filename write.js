@@ -1,2 +1,2 @@
-const cookie = name => `; ${document.cookie}`.split(`; ${name}=`).pop().split(';').shift();
-const timeFromDate = date => date.toTimeString().slice(0, 8);
+const greetings = age < 18 ? 'You are not old enough' : 'You are young!';
+const sumArray = arr => arr.reduce((total, current) => total + current, 0);
