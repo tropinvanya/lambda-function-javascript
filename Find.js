@@ -1,3 +1,2 @@
-const buildOutputPath = path.join(repositoryRootPath, 'out');
-console.log(['foo', 'bar'].concat(['baz', 'qux'].reverse().slice(1)).join(' ').replace(/a/i, 'ee').toUpperCase());
-var arr1 = "john".split('');
+const apmRootPath = path.join(repositoryRootPath, 'apm');
+const goToTop = () => window.scrollTo(0, 0);
