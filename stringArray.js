@@ -1,3 +1,3 @@
-console.log(typeof typeof 1);
-const shuffledArray = array.sort(() => Math.random() - 0.5); 
-console.log(false === '0');
+[foo, bar] = [bar, foo];
+var arr2 = arr1.reverse();
+const merge = Object.assign({}, obj1, obj2);
