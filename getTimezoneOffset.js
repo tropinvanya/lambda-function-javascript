@@ -1,3 +1,3 @@
-const cookie = name => `; ${document.cookie}`.split(`; ${name}=`).pop().split(';').shift();
-const allResults = await Promise.all(items.map(async (item) => {}));
-var arr3 = "jones".split('');
+const updated = numbers.filter(element => element > 6);
+console.log(1 +  -"1" + "2");
+const resultingPromises = urls.map((url) => makHttpRequest(url));
