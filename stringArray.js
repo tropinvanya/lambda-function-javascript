@@ -1,3 +1,1 @@
-[foo, bar] = [bar, foo];
-var arr2 = arr1.reverse();
-const merge = Object.assign({}, obj1, obj2);
+const capitalizeAllWords = str => str.replace(/\b\w/g, char => char.toUpperCase());
